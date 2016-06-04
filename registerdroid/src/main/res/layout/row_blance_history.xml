@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/row_blance_history"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="8dp"
+              android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1."
+            android:id="@+id/frag_balance_tv_pos"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/frag_balance_tv_show_amount"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/frag_balance_tv_show_sum"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/custom_divider_white_gradient"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_main">
+
+        <CheckBoxPreference
+            android:key="@string/AP_TOUCH_TWICE_TO_EXIT"
+            android:title="@string/pref_title_touch_twice_to_exit"
+            android:summary="@string/pref_sum_touch_twice_to_exit"/>
+
+        <Preference
+            android:key="@string/AP_BUILD_VERSION"
+            android:title="@string/build_version"
+            android:summary="@string/empty"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

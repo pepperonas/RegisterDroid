@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="empty"/>
+
+    <string name="app_name">RegisterDroid</string>
+
+    <string name="dev_name">Johnny\'s Cash</string>
+    <string name="dev_mail">jCASH@cmail.com</string>
+
+    <string name="navigation_drawer_open">Öffnen</string>
+    <string name="navigation_drawer_close">Schließen</string>
+    
+    <string name="nav_item_balance">Kassenabschluss</string>
+    <string name="nav_item_history">Historie</string>
+    <string name="nav_item_register_overview">Kassenauswahl</string>
+    <string name="nav_category_more">Weiteres</string>
+    <string name="nav_item_settings">Einstellungen</string>
+    <string name="nav_item_send">Senden</string>
+    <string name="amnt">Anz.</string>
+    <string name="val">Betrag</string>
+    <string name="dialog_choose_register_title">Kasse auswählen</string>
+    <string name="no_data_found">Keine Daten gefunden</string>
+    <string name="to_enter_valid_data">Bitte gültigen Wert eingeben.</string>
+    <string name="old_value">"Alter Wert: "</string>
+    <string name="edit_field">Änderung von Feld %s</string>
+    <string name="total">TOTAL: %s€</string>
+    <string name="save">Speichern</string>
+    <string name="empty_value">-,—€</string>
+    <string name="euro_format">%s €</string>
+    <string name="save_data">Daten gespeichert</string>
+    <string name="are_you_sure">Sind Sie sicher?</string>
+    <string name="dlg_delete_msg_1">"Möchten Sie den Eintrag vom "</string>
+    <string name="dlg_delete_msg_2">" wirklich löschen?"</string>
+    <string name="intent_info_send_mail">Email senden…</string>
+    <string name="register_print">Kassenauszug</string>
+    <string name="total_">"TOTAL: "</string>
+    <string name="select_icon">Icon wählen</string>
+    <string name="euro_sign">€</string>
+    <string name="report_from_date">"Abschluss vom: "</string>
+    <string name="report_in_register">"Abschluss in Kasse "</string>
+    <string name="x">x</string>
+    <string name="for_register">" für Kasse "</string>
+    <string name="in_register">" in Kasse "</string>
+
+    <string name="pref_cat_main">Allgemein</string>
+    <string name="AP_TOUCH_TWICE_TO_EXIT" translatable="false">double_touch_exit</string>
+    <string name="pref_title_touch_twice_to_exit">Verlassen der App</string>
+    <string name="pref_sum_touch_twice_to_exit">Berühre den Zurück Button 2x um die App zu verlassen</string>
+    <string name="settings">Einstellungen</string>
+
+    <string name="AP_BUILD_VERSION" translatable="false">build_version</string>
+    <string name="build_version" translatable="false">Build Version</string>
+    <string name="touch_twice_to_close">Zum Beenden nochmal drücken</string>
+
+</resources>
